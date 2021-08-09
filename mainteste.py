@@ -4,10 +4,10 @@ import random
 
 crossover_probability = 0.9
 mutation_probability = 0.1
-population_size = 400
+population_size = 100
 elite_size = 20
 load_capacity = 3
-number_generations = 100
+number_generations = 30
 
 objects = pd.read_csv('objetos.txt', sep=';')
 
