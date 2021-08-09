@@ -84,8 +84,6 @@ def sort_population(population):
 
 
 print('-' * 45)
-print('Algoritmo da Mochila')
-print('-' * 45)
 print('Número de genes dos indivíduos: {}\n'.format(number_genes))
 print('Taxa de crossover: {}%\n'.format(crossover_probability * 100))
 print('Taxa de mutação: {}%\n'.format(mutation_probability * 100))
