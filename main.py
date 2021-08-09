@@ -27,17 +27,17 @@ def cria_populacao():
 p = []
 p = cria_populacao()
 
-def calcula_volume(indice, populacao):
+def calcula_volume(indice):
     soma_vol = 0
-    for j in range(len(populacao[indice])):
-        if populacao[indice][j] == 1:
+    for j in range(len(p[indice])):
+        if p[indice][j] == 1:
             soma_vol += produto_volumes[j]
     return soma_vol
 
-def calcula_volumes(populacao):
+def calcula_volumes():
     soma_vols = {}
-    for i in range(len(populacao)):
-        soma_vols[i] = calcula_volume(i, populacao)
+    for i in range(len(p)):
+        soma_vols[i] = calcula_volume(i)
     print("\n")
     return soma_vols
 
